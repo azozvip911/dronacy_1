@@ -1,0 +1,213 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.register_first_aid_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_2 */
+.register_first_aid_mobilegrid_2 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.register_first_aid_mobilegrid_2_wrapper {
+
+}
+.register_first_aid_mobilegrid_2 > tr > td {
+	vertical-align: top;
+}
+.register_first_aid_mobilegrid_2_row_0, .register_first_aid_mobilegrid_2_row_0 > td {
+	height: 30px
+}
+.register_first_aid_mobilegrid_2_row_1, .register_first_aid_mobilegrid_2_row_1 > td {
+	height: 30px
+}
+.register_first_aid_mobilegrid_2_row_2, .register_first_aid_mobilegrid_2_row_2 > td {
+	height: 30px
+}
+.register_first_aid_mobilegrid_2_row_3, .register_first_aid_mobilegrid_2_row_3 > td {
+	height: 30px
+}
+.register_first_aid_mobilegrid_2_row_4, .register_first_aid_mobilegrid_2_row_4 > td {
+	height: 30px
+}
+/* mobilegridcell_3 */
+.register_first_aid_mobilegridcell_3 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_7 */
+.register_first_aid_mobilelabel_7 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_4 */
+.register_first_aid_mobilegridcell_4 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* reg_name */
+.register_first_aid_reg_name {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegridcell_5 */
+.register_first_aid_mobilegridcell_5 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_8 */
+.register_first_aid_mobilelabel_8 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_6 */
+.register_first_aid_mobilegridcell_6 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* reg_age */
+.register_first_aid_reg_age {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegridcell_9 */
+.register_first_aid_mobilegridcell_9 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_15 */
+.register_first_aid_mobilelabel_15 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_10 */
+.register_first_aid_mobilegridcell_10 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_10 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* reg_disease_date */
+.register_first_aid_reg_disease_date {
+	margin: 4px 0px 4px 0px;
+}
+.register_first_aid_reg_disease_date .datePickerControls {
+	position:relative;
+	top:0;
+	padding-right:45px;
+}
+.register_first_aid_reg_disease_date .datepickeropenbutton {
+	position:absolute;
+	right:0;
+}
+/* mobilegridcell_11 */
+.register_first_aid_mobilegridcell_11 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_11 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_16 */
+.register_first_aid_mobilelabel_16 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_12 */
+.register_first_aid_mobilegridcell_12 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* reg_id */
+.register_first_aid_reg_id {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegridcell_13 */
+.register_first_aid_mobilegridcell_13 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_17 */
+.register_first_aid_mobilelabel_17 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_14 */
+.register_first_aid_mobilegridcell_14 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.register_first_aid_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* reg_nat */
+.register_first_aid_reg_nat {
+	margin: 4px 5px 4px 5px;
+}
+/* order_fa */
+#register_first_aid_order_fa {
+
+}
+.ui-btn.register_first_aid_order_fa {
+	margin: 50px 5px 4px 5px;
+}
+/* mobilefooter */
+.register_first_aid_mobilefooter {
+	min-height:38px;
+}

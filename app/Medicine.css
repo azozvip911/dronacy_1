@@ -1,0 +1,201 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Medicine_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_42 */
+.Medicine_mobilelabel_42 {
+	text-decoration: none; font-weight: bold; color: #f90707; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_3 */
+.Medicine_mobilelabel_3 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* select_disease */
+.Medicine_select_disease {
+	margin: 4px 5px 4px 5px;
+}
+/* med_lbl */
+.Medicine_med_lbl {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* hd_select */
+.Medicine_hd_select {
+	margin: 4px 5px 4px 5px;
+	display: none;
+}
+/* di_select */
+.Medicine_di_select {
+	margin: 4px 5px 4px 5px;
+	display: none;
+}
+/* bp_select */
+.Medicine_bp_select {
+	margin: 4px 5px 4px 5px;
+	display: none;
+}
+/* med_image */
+.Medicine_med_image {
+	margin: 4px 0px 4px 0px;
+	width: 100px; height: 100px;
+	display: block;
+}
+/* order */
+#Medicine_order {
+
+}
+.ui-btn.Medicine_order {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilegrid_34 */
+.Medicine_mobilegrid_34 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Medicine_mobilegrid_34_wrapper {
+
+}
+.Medicine_mobilegrid_34 > tr > td {
+	vertical-align: top;
+}
+.Medicine_mobilegrid_34_row_0, .Medicine_mobilegrid_34_row_0 > td {
+	height: 30px
+}
+.Medicine_mobilegrid_34_row_1, .Medicine_mobilegrid_34_row_1 > td {
+	height: 30px
+}
+/* mobilegridcell_35 */
+.Medicine_mobilegridcell_35 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Medicine_mobilegridcell_35 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_36 */
+.Medicine_mobilegridcell_36 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Medicine_mobilegridcell_36 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_37 */
+.Medicine_mobilegridcell_37 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Medicine_mobilegridcell_37 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_38 */
+.Medicine_mobilegridcell_38 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Medicine_mobilegridcell_38 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilefooter */
+.Medicine_mobilefooter {
+	min-height:38px;
+}
+/* popup */
+.Medicine_popup {
+
+}
+div.Medicine_popup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.Medicine_popup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* mobilegrid_52 */
+.Medicine_mobilegrid_52 {
+	height: auto;
+	width:100%;
+	margin: 4px 50px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.Medicine_mobilegrid_52_wrapper {
+
+}
+.Medicine_mobilegrid_52 > tr > td {
+	vertical-align: top;
+}
+.Medicine_mobilegrid_52_row_0, .Medicine_mobilegrid_52_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_53 */
+.Medicine_mobilegridcell_53 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.Medicine_mobilegridcell_53 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_57 */
+.Medicine_mobilelabel_57 {
+	text-decoration: none; font-weight: bold; color: #14a75c; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 20px 4px 20px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegroupedbuttons_59 */
+.ui-controlgroup.Medicine_mobilegroupedbuttons_59 {
+	margin: 20px 20px 10px 20px;
+}
+.ui-controlgroup.Medicine_mobilegroupedbuttons_59 .ui-btn {
+	margin: 0 -1px 0 0;
+	max-width: 100%;
+}
+.ui-controlgroup.Medicine_mobilegroupedbuttons_59 .ui-controlgroup-controls {
+	max-width: 100%;
+}
+/* mobilebutton_60 */
+#Medicine_mobilebutton_60 {
+
+}
+.ui-btn.Medicine_mobilebutton_60 {
+
+}
+/* mobilebutton_61 */
+#Medicine_mobilebutton_61 {
+
+}
+.ui-btn.Medicine_mobilebutton_61 {
+
+}

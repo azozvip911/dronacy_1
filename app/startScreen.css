@@ -1,0 +1,64 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.startScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilecarousel_5 */
+.startScreen_mobilecarousel_5 {
+	margin: 0px 0px 0px 0px!important;
+}
+.startScreen_mobilecarousel_5 ul {
+	margin: 0px 0px 0px 0px!important;
+}
+.startScreen_mobilecarousel_5 .ui-carousel-box {
+	min-height: 50px;
+}
+/* mobilecarouselitem_6 */
+.startScreen_mobilecarouselitem_6 .ui-carousel-box {
+	padding: 0px 0px 0px 0px;
+}
+/* mobileimage_10 */
+.startScreen_mobileimage_10 {
+	margin: 4px 0px 4px 0px;
+	width: 256px; height: 196px;
+	display: block;
+}
+/* mobilecarouselitem_7 */
+.startScreen_mobilecarouselitem_7 .ui-carousel-box {
+	padding: 0px 0px 0px 0px;
+}
+/* mobileimage_11 */
+.startScreen_mobileimage_11 {
+	margin: 4px 0px 4px 0px;
+	width: 263px; height: 188px;
+	display: block;
+}
+/* mobilebutton_3 */
+#startScreen_mobilebutton_3 {
+
+}
+.ui-btn.startScreen_mobilebutton_3 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_21 */
+#startScreen_mobilebutton_21 {
+
+}
+.ui-btn.startScreen_mobilebutton_21 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_4 */
+#startScreen_mobilebutton_4 {
+
+}
+.ui-btn.startScreen_mobilebutton_4 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.startScreen_mobilefooter {
+	min-height:38px;
+}

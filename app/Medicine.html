@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Medicine
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/ios7/ios7.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <link href="../libs/exadel-carousel/jquery.mobile.carousel.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/exadel-carousel/carousel.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+                $("body").bind("swipeleft", function(e)
+                {
+                    e.preventDefault();
+                });
+                $("body").bind("swiperight", function(e)
+                {
+                    e.preventDefault();
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Medicine" id="Medicine" class="type-interior"
+        data-theme="d">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="d" name="mobileheader" id="Medicine_mobileheader" class="Medicine_mobileheader">
+                <h1 dsid="mobileheader">
+                    Dronacy
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Medicine_mobilecontainer" name="mobilecontainer" class="Medicine_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="d">
+                <link href="Medicine.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Medicine.js">
+                </script>
+                <!-- mobilelabel_42 -->
+                <div name="mobilelabel_42" id="Medicine_mobilelabel_42" dsid="mobilelabel_42" data-role="appery_label"
+                class="Medicine_mobilelabel_42">
+                    Medication will be sent to your current location
+                </div>
+                <!-- mobilelabel_3 -->
+                <div name="mobilelabel_3" id="Medicine_mobilelabel_3" dsid="mobilelabel_3" data-role="appery_label"
+                class="Medicine_mobilelabel_3">
+                    Select Disease
+                </div>
+                <!-- select_disease -->
+                <div data-role="fieldcontain" class="Medicine_select_disease ">
+                    <select name="select_disease" id="Medicine_select_disease" dsid="select_disease"
+                    data-theme="d" data-role="appery_selectmenu" data-inline="false" data-mini="false"
+                    data-icon="arrow-d" data-iconpos="right" data-native-menu="true" tabindex="5" appery-class="Medicine_select_disease">
+                        <option id="Medicine_select_disease-0" value="hd" reRender="select_disease" dsid="select_disease-0">
+                            Heart Disease
+                        </option>
+                        <option id="Medicine_select_disease-1" value="di" reRender="select_disease" dsid="select_disease-1">
+                            Diabetes
+                        </option>
+                        <option id="Medicine_select_disease-2" value="bp" reRender="select_disease" dsid="select_disease-2">
+                            Blood Presure
+                        </option>
+                        <option id="Medicine_select_disease-3" value="" reRender="select_disease" dsid="select_disease-3"
+                        selected="selected">
+                            Please Select
+                        </option>
+                    </select>
+                </div>
+                <!-- med_lbl -->
+                <div name="med_lbl" id="Medicine_med_lbl" dsid="med_lbl" data-role="appery_label"
+                class="Medicine_med_lbl">
+                    Select medication
+                </div>
+                <!-- hd_select -->
+                <div data-role="fieldcontain" class="Medicine_hd_select ">
+                    <select name="hd_select" id="Medicine_hd_select" dsid="hd_select" data-theme="d"
+                    data-role="appery_selectmenu" data-inline="false" data-mini="false" data-icon="arrow-d"
+                    data-iconpos="right" data-native-menu="false" tabindex="6" appery-class="Medicine_hd_select">
+                        <option id="Medicine_hd_select-0" value="Accupril" reRender="hd_select" dsid="hd_select-0">
+                            Accupril (quinapril)
+                        </option>
+                        <option id="Medicine_hd_select-1" value="Aceon" reRender="hd_select" dsid="hd_select-1">
+                            Aceon (perindopril)
+                        </option>
+                        <option id="Medicine_hd_select-2" value="Adalat" reRender="hd_select" dsid="hd_select-2">
+                            ViciAdalat (nifedipine)
+                        </option>
+                        <option id="Medicine_hd_select-3" value="Altace" reRender="hd_select" dsid="hd_select-3">
+                            Altace (ramipri)l
+                        </option>
+                        <option id="Medicine_hd_select-4" value="Apresoline" reRender="hd_select" dsid="hd_select-4">
+                            Apresoline (hydralazine)
+                        </option>
+                        <option id="Medicine_hd_select-5" value="Aspirin" reRender="hd_select" dsid="hd_select-5">
+                            Aspirin
+                        </option>
+                        <option id="Medicine_hd_select-6" value="Benicar" reRender="hd_select" dsid="hd_select-6">
+                            Benicar HCT (hydrochlorothiazide and olmesartan)
+                        </option>
+                        <option id="Medicine_hd_select-7" value="Caduet" reRender="hd_select" dsid="hd_select-7">
+                            Caduet (amlodipine and atorvastatin)
+                        </option>
+                        <option id="Medicine_hd_select-8" value="" reRender="hd_select" dsid="hd_select-8"
+                        selected="selected">
+                            Please Select
+                        </option>
+                    </select>
+                </div>
+                <!-- di_select -->
+                <div data-role="fieldcontain" class="Medicine_di_select ">
+                    <select name="di_select" id="Medicine_di_select" dsid="di_select" data-theme="d"
+                    data-role="appery_selectmenu" data-inline="false" data-mini="false" data-icon="arrow-d"
+                    data-iconpos="right" data-native-menu="false" tabindex="7" appery-class="Medicine_di_select">
+                        <option id="Medicine_di_select-0" value="Insulin" reRender="di_select" dsid="di_select-0">
+                            Insulin Injection - Mixtard
+                        </option>
+                        <option id="Medicine_di_select-1" value="daonil" reRender="di_select" dsid="di_select-1">
+                            Daonil 5mg - Tablet
+                        </option>
+                        <option id="Medicine_di_select-2" value="Glu" reRender="di_select" dsid="di_select-2">
+                            Glucophage 500mg - Tablet
+                        </option>
+                        <option id="Medicine_di_select-3" value="Dia" reRender="di_select" dsid="di_select-3">
+                            Diamicron 60mg - Tablet
+                        </option>
+                        <option id="Medicine_di_select-4" value="Insn" reRender="di_select" dsid="di_select-4">
+                            Insulin N
+                        </option>
+                        <option id="Medicine_di_select-5" value="insr" reRender="di_select" dsid="di_select-5">
+                            Insulin R
+                        </option>
+                        <option id="Medicine_di_select-6" value="" reRender="di_select" dsid="di_select-6"
+                        selected="selected">
+                            Please select
+                        </option>
+                    </select>
+                </div>
+                <!-- bp_select -->
+                <div data-role="fieldcontain" class="Medicine_bp_select ">
+                    <select name="bp_select" id="Medicine_bp_select" dsid="bp_select" data-theme="d"
+                    data-role="appery_selectmenu" data-inline="false" data-mini="false" data-icon="arrow-d"
+                    data-iconpos="right" data-native-menu="false" tabindex="10" appery-class="Medicine_bp_select">
+                        <option id="Medicine_bp_select-0" value="captopril" reRender="bp_select" dsid="bp_select-0">
+                            Captopril
+                        </option>
+                        <option id="Medicine_bp_select-1" value="cardol" reRender="bp_select" dsid="bp_select-1">
+                            Cardol
+                        </option>
+                        <option id="Medicine_bp_select-2" value="lasix" reRender="bp_select" dsid="bp_select-2">
+                            Lasix
+                        </option>
+                        <option id="Medicine_bp_select-3" value="" reRender="bp_select" dsid="bp_select-3"
+                        selected="selected">
+                            Please Select
+                        </option>
+                    </select>
+                </div>
+                <!-- med_image -->
+                <img class="Medicine_med_image" src="../libs/apperyio/img/no-image.jpg" id="Medicine_med_image"
+                dsid="med_image" name="med_image" />
+                <!-- order --><!--
+                --><a data-role="button" name="order" dsid="order" class="Medicine_order" id="Medicine_order"
+                data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                data-mini="false" data-theme="d" tabindex="8">
+                Oreder Now
+                </a><!--
+                --><!-- mobilegrid_34 -->
+                <div class="Medicine_mobilegrid_34_wrapper" data-wrapper-for="mobilegrid_34">
+                    <table id="Medicine_mobilegrid_34" class="Medicine_mobilegrid_34" dsid="mobilegrid_34"
+                    name="mobilegrid_34" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="Medicine_mobilegrid_34_row_0">
+                            <!-- mobilegridcell_35 -->
+                            <td id="Medicine_mobilegridcell_35" name="mobilegridcell_35" class="Medicine_mobilegridcell_35"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_36 -->
+                            <td id="Medicine_mobilegridcell_36" name="mobilegridcell_36" class="Medicine_mobilegridcell_36"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="Medicine_mobilegrid_34_row_1">
+                            <!-- mobilegridcell_37 -->
+                            <td id="Medicine_mobilegridcell_37" name="mobilegridcell_37" class="Medicine_mobilegridcell_37"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_38 -->
+                            <td id="Medicine_mobilegridcell_38" name="mobilegridcell_38" class="Medicine_mobilegridcell_38"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- popup -->
+            <div data-role="popup" name="popup" dsid="popup" id="Medicine_popup" class="Medicine_popup"
+            data-corners="true" data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true"
+            data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- mobilegrid_52 -->
+                    <div class="Medicine_mobilegrid_52_wrapper" data-wrapper-for="mobilegrid_52">
+                        <table id="Medicine_mobilegrid_52" class="Medicine_mobilegrid_52" dsid="mobilegrid_52"
+                        name="mobilegrid_52" cellpadding=0 cellspacing=0>
+                            <col style="width:auto;" />
+                            <tr class="Medicine_mobilegrid_52_row_0">
+                                <!-- mobilegridcell_53 -->
+                                <td id="Medicine_mobilegridcell_53" name="mobilegridcell_53" class="Medicine_mobilegridcell_53"
+                                colspan=1 rowspan=1>
+                                    <div class="cell-wrapper">
+                                        <!-- mobilelabel_57 -->
+                                        <div name="mobilelabel_57" id="Medicine_mobilelabel_57" dsid="mobilelabel_57" data-role="appery_label"
+                                        class="Medicine_mobilelabel_57">
+                                            Are you sure you want to order this medication ?
+                                        </div>
+                                        <!-- mobilegroupedbuttons_59 -->
+                                        <div data-role="controlgroup" data-type='horizontal' data-mini="false" name="mobilegroupedbuttons_59"
+                                        id="Medicine_mobilegroupedbuttons_59" dsid="mobilegroupedbuttons_59" class="Medicine_mobilegroupedbuttons_59">
+                                            <!-- mobilebutton_60 --><!--
+                                            --><a data-role="button" name="mobilebutton_60" dsid="mobilebutton_60" class="Medicine_mobilebutton_60"
+                                            id="Medicine_mobilebutton_60" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                                            x-apple-data-detectors="false" data-theme="d" tabindex="13" reRender='mobilegroupedbuttons_59'>
+                                            Yes
+                                            </a><!--
+                                            --><!-- mobilebutton_61 --><!--
+                                            --><a data-role="button" name="mobilebutton_61" dsid="mobilebutton_61" class="Medicine_mobilebutton_61"
+                                            id="Medicine_mobilebutton_61" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                                            x-apple-data-detectors="false" data-theme="d" tabindex="13" reRender='mobilegroupedbuttons_59'>
+                                            Cancel
+                                            </a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
